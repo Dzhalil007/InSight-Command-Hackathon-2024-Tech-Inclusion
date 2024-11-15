@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  color: #333;
+  background-image: url('Инклюзия\ в\ школе.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #e6f5e6;
+}
+
+.header {
+  background-color: #66bb6a;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: #333;
+  text-decoration: underline;
+}
+
+.section {
+  padding: 2rem;
+  margin: 1rem auto;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.section h2 {
+  color: #333;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.section p,
+.section ul {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.section ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.section:hover {
+  transform: scale(1.02);
+}
+
+.footer {
+  background-color: #333;
+  color: #f4f4f9;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #e6f5e6;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #66bb6a;
+  text-decoration: underline;
+}
+
+a {
+  color: #66bb6a;
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcome p {
+  font-size: 1.25rem;
+  color: #333;
+}
+.home-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #66bb6a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-button:hover {
+  background-color: #4a9c4d;
+  transform: scale(1.05);
+}
